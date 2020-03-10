@@ -15,7 +15,7 @@ Instructions on how to configure a Windows Server to be the Authoritative Time S
 5. Navigate to the following Registry Subkey
 `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W32Time\TimeProviders\NtpServer`
 6. Modify the DWORD value to **1** to enable the NTPServer
-7. Navigate to teh following Registry Subkey
+7. Navigate to the following Registry Subkey
 `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W32Time\Parameters`
 8. Modify **ntpserver** and enter **pool.ntp.org,0x1**
 9. Navigate to the following Registry Subkey

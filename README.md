@@ -28,3 +28,6 @@ Instructions on how to configure a Windows Server to be the Authoritative Time S
 #
 Restart the Windows Time Service with the following command: ```
 net stop w32time && net start w32time```
+
+
+Refer to the [commands.bat](https://github.com/ZachGSnow/WindowsNTP/blob/master/Commands.bat) file in this repository for additional commands to troubleshoot Windows NTP issues on Domain Controllers and Windows Desktop editions.
